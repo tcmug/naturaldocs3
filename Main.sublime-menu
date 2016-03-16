@@ -1,0 +1,30 @@
+[
+  {
+    "caption": "Preferences",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "Natural Docs",
+            "id": "yarr",
+            "children": [
+              {
+                "command": "open_file",
+                "args": { "file": "${packages}/NaturalDocs3/NaturalDocs.sublime-settings" },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": { "file": "${packages}/User/NaturalDocs.sublime-settings" },
+                "caption": "Settings – User"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

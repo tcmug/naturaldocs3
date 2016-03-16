@@ -1,0 +1,15 @@
+{
+	"formatting": {
+		"python": {
+			"start": "#",
+			"line": "#\t",
+			"end": "#"
+		},
+
+		"c++": {
+			"start": "/*",
+			"line": "\t",
+			"end": "*/"
+		},
+	}
+}
